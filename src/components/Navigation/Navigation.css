@@ -18,7 +18,8 @@ nav:hover {
 }
 nav a {
   text-decoration: none;
-  color: black;
+  color: rgb(65, 65, 65);
+
   transition: text-shadow 0.2s ease-in;
 }
 #nav-input {

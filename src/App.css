@@ -9,8 +9,9 @@ body::-webkit-scrollbar {
 
 .working-area {
   max-width: 1300px;
-  height: 100vh;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .below-navigation {
@@ -19,12 +20,11 @@ body::-webkit-scrollbar {
 
 .aside-left {
   width: 20%;
-
   box-shadow: 0px 1px 3px black;
 }
+
 .center {
   width: 60%;
-
   padding: 1rem;
 }
 .aside-right {
