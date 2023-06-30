@@ -12,7 +12,7 @@ function App() {
         <div className="header-nav">
           <Navigation />
         </div>
-        <div className="below-navigation">
+        <div className="main">
           <div className="aside-left">
             <AsideLeftNav />
           </div>
