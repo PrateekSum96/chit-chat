@@ -8,6 +8,8 @@ import { formatDate } from "../utils/authUtils";
 export const posts = [
   {
     _id: "xhzTkUi2Nt",
+    firstname: "Roma",
+    lastname: "Bulani",
     content: "Nice Weather Today!!",
     mediaURL: "",
     likes: {
@@ -32,6 +34,8 @@ export const posts = [
   },
   {
     _id: "siFFxfYI1s",
+    firstname: "Carl",
+    lastname: "Smith",
     content: "Started my Baking journey! Look what I made.",
     mediaURL:
       "https://res.cloudinary.com/dtrjdcrme/video/upload/v1652188886/upload-socialmedia/oikev6eomsgahnvxcijd.mp4",
@@ -47,6 +51,8 @@ export const posts = [
   },
   {
     _id: "3XHvLP1fg",
+    firstname: "Jane",
+    lastname: "Doe",
     content: "I made this cake for my friend's birthday. Check it out",
     mediaURL:
       "https://res.cloudinary.com/dtrjdcrme/image/upload/v1652188492/upload-socialmedia/cakegif_q11mfm.webp",
@@ -72,6 +78,8 @@ export const posts = [
   },
   {
     _id: "MTYtVhecCj",
+    firstname: "Adarsh",
+    lastname: "",
     content:
       "You are never too old to set another goal or to dream a new dream.",
     mediaURL: "",
@@ -81,12 +89,14 @@ export const posts = [
       dislikedBy: [],
     },
     comments: [],
-    username: "adarshbalika",
+    username: "adarsh",
     createdAt: "2022-03-06T10:55:06+05:30",
     updatedAt: formatDate(),
   },
   {
     _id: "3XHvLP9kC",
+    firstname: "Adarsh",
+    lastname: "",
     content: "Yayy! Its my Birthday Today. Made this cake for myself!",
     mediaURL:
       "https://res.cloudinary.com/dtrjdcrme/image/upload/v1647014336/ecommerce/chocolatecake4.webp",
@@ -115,12 +125,14 @@ export const posts = [
         },
       },
     ],
-    username: "adarshbalika",
+    username: "adarsh",
     createdAt: "2022-03-15T10:55:06+05:30",
     updatedAt: formatDate(),
   },
   {
     _id: "tHaThLyFQh",
+    firstname: "Adarsh",
+    lastname: "",
     content:
       "Life has got all those twists and turns. You’ve got to hold on tight and off you go.",
     mediaURL: "",
@@ -130,12 +142,14 @@ export const posts = [
       dislikedBy: [],
     },
     comments: [],
-    username: "adarshbalika",
+    username: "adarsh",
     createdAt: "2022-04-06T10:55:06+05:30",
     updatedAt: formatDate(),
   },
   {
     _id: "G-Gi3lSZP9",
+    firstname: "Adarsh",
+    lastname: "",
     content: "When you have a dream, you’ve got to grab it and never let go.",
     mediaURL: "",
     likes: {
@@ -144,12 +158,14 @@ export const posts = [
       dislikedBy: [],
     },
     comments: [],
-    username: "adarshbalika",
+    username: "adarsh",
     createdAt: "2022-05-06T10:55:06+05:30",
     updatedAt: formatDate(),
   },
   {
     _id: "GeMUAdi9mh",
+    firstname: "Adarsh",
+    lastname: "",
     content:
       "No matter what people tell you, words and ideas can change the world.",
     mediaURL: "",
@@ -159,12 +175,14 @@ export const posts = [
       dislikedBy: [],
     },
     comments: [],
-    username: "adarshbalika",
+    username: "adarsh",
     createdAt: "2022-03-06T12:55:06+05:30",
     updatedAt: formatDate(),
   },
   {
     _id: "IyUlYXTrzZ",
+    firstname: "Roma",
+    lastname: "Bulani",
     content: "Who's up for Pineapple Pastry?",
     mediaURL:
       "https://res.cloudinary.com/dtrjdcrme/image/upload/v1647014828/ecommerce/pineapplemuffin1.webp",
@@ -190,6 +208,8 @@ export const posts = [
   },
   {
     _id: "Ie92xOSVeU",
+    firstname: "Alex",
+    lastname: "Maxwell",
     content:
       "Check out this amazing video from BakinZone https://bakinzone.netlify.app/videos/qtlhdIfojmc",
     mediaURL: "",
@@ -215,6 +235,8 @@ export const posts = [
   },
   {
     _id: "xhzTkUyfNt",
+    firstname: "Sophia",
+    lastname: "Jones",
     content: "Believe in yourself! Rest all will fall in place.",
     mediaURL: "",
     likes: {
@@ -239,6 +261,8 @@ export const posts = [
   },
   {
     _id: "CCmJpDnnQQ",
+    firstname: "Roma",
+    lastname: "Bulani",
     content:
       "You can get everything in life you want if you will just help enough other people get what they want.",
     mediaURL: "",
@@ -255,6 +279,8 @@ export const posts = [
 
   {
     _id: "Z_TZT_3EAw",
+    firstname: "John",
+    lastname: "Doe",
     content:
       "If you believe something needs to exist, if it's something you want to use yourself, don't let anyone ever stop you from doing it.",
     mediaURL: "",
@@ -271,6 +297,8 @@ export const posts = [
 
   {
     _id: "e-knMEsoLq",
+    firstname: "Alex",
+    lastname: "Maxwell",
     content: "More is lost by indecision than wrong decision.",
     mediaURL: "",
     likes: {
@@ -286,6 +314,8 @@ export const posts = [
 
   {
     _id: "VY14RsXC7G",
+    firstname: "Carl",
+    lastname: "Smith",
     content:
       "The reason we struggle with insecurity is because we compare our behind-the-scenes with everyone else’s highlight reel.",
     mediaURL: "",
@@ -302,6 +332,8 @@ export const posts = [
 
   {
     _id: "l9pedEMjZS",
+    firstname: "Sophia",
+    lastname: "Jones",
     content: "If you don’t risk anything, you risk even more.",
     mediaURL: "",
     likes: {
@@ -317,6 +349,8 @@ export const posts = [
 
   {
     _id: "lbW4dlCpNC",
+    firstname: "Roma",
+    lastname: "Bulani",
     content: "If it makes you nervous, you’re doing it right.",
     mediaURL: "",
     likes: {
@@ -332,6 +366,8 @@ export const posts = [
 
   {
     _id: "k-Vwd2d7Vt",
+    firstname: "Carl",
+    lastname: "Smith",
     content:
       "I learned a long time ago that there is something worse than missing the goal, and that’s not pulling the trigger.",
     mediaURL: "",
@@ -348,6 +384,8 @@ export const posts = [
 
   {
     _id: "R2lAuXvK7V",
+    firstname: "Jane",
+    lastname: "Doe",
     content:
       "Success is stumbling from failure to failure with no loss of enthusiasm. Love this quote by Winston Churchill.",
     mediaURL: "",
@@ -364,6 +402,8 @@ export const posts = [
 
   {
     _id: "G5xd30tMCR",
+    firstname: "Alex",
+    lastname: "Maxwell",
     content:
       "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
     mediaURL: "",
@@ -380,6 +420,8 @@ export const posts = [
 
   {
     _id: "lF8cnfPAe9",
+    firstname: "Roma",
+    lastname: "Bulani",
     content:
       "Life is like riding a bicycle. To keep your balance you must keep moving.",
     mediaURL: "",
@@ -396,6 +438,8 @@ export const posts = [
 
   {
     _id: "stfTkUi2Nt",
+    firstname: "Sophia",
+    lastname: "Jones",
     content:
       "“Do not wait for the perfect time and place to enter, for you are already onstage.",
     mediaURL: "",
@@ -412,6 +456,8 @@ export const posts = [
 
   {
     _id: "quiTkUi2Nt",
+    firstname: "Jane",
+    lastname: "Doe",
     content: "It is a rough road that leads to the heights of greatness.",
     mediaURL: "",
     likes: {

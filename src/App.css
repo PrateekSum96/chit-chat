@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
 }
 
-.below-navigation {
+.main {
   display: flex;
 }
 
@@ -26,6 +26,8 @@ body::-webkit-scrollbar {
 .center {
   width: 60%;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 .aside-right {
   width: 20%;
