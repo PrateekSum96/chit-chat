@@ -13,7 +13,7 @@ export const Explore = () => {
       </div>
 
       <div className="post-card">
-        {posts.map((post) => (
+        {posts?.map((post) => (
           <div key={post._id}>
             <PostsCard {...post} />
           </div>

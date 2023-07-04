@@ -31,18 +31,27 @@ export const PostsCard = (post) => {
       setLikeCount(() => likeCount + 1);
     }
   };
+
+  const postTime = (postTime) => {
+    const dateObj = new Date(postTime);
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    const formattedDate = dateObj.toLocaleDateString("en-US", options);
+    return formattedDate;
+  };
   return (
     <div>
       <div className="card-post-container">
         <div className="user-info">
           <div className="user-image">
-            <img src={getUserImage(post.username)} alt={post.firstname[0]} />
+            <img src={getUserImage(post?.username)} alt={post.firstname[0]} />
           </div>
           <div className="user-name">
             <div>
               <span> {post.firstname}</span>
               <span> {post.lastname}</span>
+              <span id="post-time">{postTime(post?.createdAt)}</span>
             </div>
+
             <div>@{post.username}</div>
           </div>
         </div>
