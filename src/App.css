@@ -5,6 +5,7 @@ body::-webkit-scrollbar {
 .header-nav {
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .working-area {
