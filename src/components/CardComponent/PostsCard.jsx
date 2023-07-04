@@ -9,7 +9,7 @@ export const PostsCard = (post) => {
   const { user } = useUser();
   const getUserImage = (postUserName) => {
     const userFound = user.find(({ username }) => username === postUserName);
-    return userFound.avatarUrl;
+    return userFound?.avatarUrl;
   };
   const Media = ({ url }) => {
     if (url.includes("image")) {
